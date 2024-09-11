@@ -1,6 +1,6 @@
 {
   "name": "create-tg-bot",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "./bot/index.js",
   "bin": {
     "create-tg-bot": "bin/cli.js"
