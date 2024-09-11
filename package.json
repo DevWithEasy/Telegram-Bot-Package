@@ -1,10 +1,13 @@
 {
   "name": "create-tg-bot",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "./bot/index.js",
+  "bin": {
+    "create-tg-bot": "bin/cli.js"
+  },
   "scripts": {
-    "dev": "nodemon bot/index.js",
-    "start": "node bot/index.js"
+    "dev": "nodemon ./bot/index.js",
+    "start": "node ./bot/index.js"
   },
   "keywords": [
     "telegraf",
