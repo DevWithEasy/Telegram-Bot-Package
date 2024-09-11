@@ -56,7 +56,7 @@ const main = () => {
     getRepoName()
         .then((name) => {
             repoName = name;
-            const gitCheckoutCommand = `git clone --depth 1 https://github.com/DevWithEasy/express-mern-x ${repoName}`;
+            const gitCheckoutCommand = `git clone --depth 1 https://github.com/DevWithEasy/create-tg-bot ${repoName}`;
             const installDepsCommand = `cd ${repoName} && npm install`;
 
             console.log('Creating project...');
