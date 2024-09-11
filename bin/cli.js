@@ -65,8 +65,10 @@ const main = () => {
 
             // Remove the bin folder after cloning
             const binFolderPath = path.join(repoName, 'bin');
-            console.log('Removing bin folder...');
+            const gitFolderPath = path.join(repoName, '.git');
+            console.log('Removing bin & git folder...');
             deleteFolderRecursive(binFolderPath);
+            deleteFolderRecursive(gitFolderPath);
 
             console.log('Installing dependencies...');
             const installed = runCommand(installDepsCommand);
