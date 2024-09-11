@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon bot.js",
-    "start": "node bot.js"
+    "dev": "nodemon bot/index.js",
+    "start": "node bot/index.js"
   },
   "keywords": [
     "telegraf",
